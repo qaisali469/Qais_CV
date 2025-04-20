@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qais Ali - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .cv-container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        h2 {
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+
+        .contact, .education, .skills {
+            padding: 15px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #007BFF;
+            color: white;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container" itemscope itemtype="https://schema.org/Person">
+        <header>
+            <h1 itemprop="name">Qais Ali</h1>
+            <p itemprop="jobTitle">Web Developer</p>
+        </header>
+        
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> <span itemprop="telephone">0315-4624493</span></p>
+            <p><strong>Email:</strong> <a href="mailto:qaisali1345@gmail.com" itemprop="email">qaisali1345@gmail.com</a></p>
+        </section>
+        
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>Qualification:</strong> <span itemprop="alumniOf">Graduation</span></p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul itemprop="knowsAbout">
+                <li>Web Development</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Frontend & Backend Development</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
